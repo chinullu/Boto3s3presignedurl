@@ -11,4 +11,4 @@ print s3.generate_presigned_url(
     Params={'Bucket': BUCKET, 'Key': KEY},
     ExpiresIn=86400,
     HttpMethod='PUT')
-   
+  
